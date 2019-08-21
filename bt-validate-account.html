@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HI</title>
+</head>
+<body>
+<script>
+    function Account() {
+        regexp = /^[_a-z[0-9]{6,}$/;
+        if (regexp.test(account)){
+            return true;
+        }
+        return false;
+    }
+    let account = prompt('Nhập tại đây: ');
+    alert(Account(account));
+</script>
+</body>
+</html>
